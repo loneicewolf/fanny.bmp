@@ -1,6 +1,6 @@
 # fanny.bmp
 FANNY BMP MALWARE SOURCE + BINARY
-- fanny.bmp malwre Source
+- fanny.bmp malware Source
 - Binary
 - Decompiles as well as some other Details.
 Coming very soon! Check the Stuxnet Repo for further info.
