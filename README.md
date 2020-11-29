@@ -20,7 +20,7 @@ Coming very soon! Check the Stuxnet Repo for further info.
 
 
 
-
+- https://www.wired.com/2015/02/nsa-firmware-hacking/
 
 
 
