@@ -3,20 +3,21 @@ FANNY BMP MALWARE SOURCE + BINARY
 - fanny.bmp malware Source
 - Binary
 - Decompiles as well as some other Details.
-Coming very soon! Check the Stuxnet Repo for further info.
 
+fanny.bmp malware sample (with lnk files, hexdumps and checksums)
 
+Warning! Live Malware!
 
+Includes:
 
-
-
-
-
-
-
-
-
-
+    d.lnk
+    e.lnk
+    f.lnk
+    g.lnk
+    h.lnk
+    i.lnk
+    j.lnk
+    fanny.bmp
 
 
 
