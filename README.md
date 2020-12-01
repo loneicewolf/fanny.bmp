@@ -4,6 +4,8 @@ FANNY BMP MALWARE SOURCE + BINARY
 - Binary
 - Decompiles as well as some other Details.
 
+Link to stuxnet: https://github.com/loneicewolf/Stuxnet-Source
+
 fanny.bmp malware sample (with lnk files, hexdumps and checksums)
 
 Warning! Live Malware!
