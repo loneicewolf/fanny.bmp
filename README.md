@@ -11,6 +11,7 @@ But I thought of providing all of these to malware researchers. As well as for a
 But the major point, is actually - as said above, but adding the following reason:
 - to help the feature find these malware and samples. As I think there are very little (if not none) of these **easily** accessible online. (Samples that is)
 
+"AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
 
 
 # Fanny (and the other files, completely provided)
