@@ -4,6 +4,8 @@ All these I thought of earlier providing, since I was one of the people that got
 
 But I thought of providing all of these to malware researchers. As well as for academical purposes.
 
+#### Note: In the video I provided, I had slight problems with USB Keyboard. So I wrote "EDUCATIONAK" but meant "EDUCATIONAL". Contact me for any details.
+
 
 (Q) Why would you want to upload malware? You're literally providing CyberWeapons!
 (A) I believe in Open-Source, and that even though in this scenario, can hopefully help malware researchers provide better protection.
