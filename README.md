@@ -8,8 +8,6 @@ But I thought of providing all of these to malware researchers. As well as for a
 (Q) Why would you want to upload malware? You're literally providing CyberWeapons!
 (A) I believe in Open-Source, and that even though in this scenario, can hopefully help malware researchers provide better protection.
 
-"I believe in open source, and I am  It is not to do any harm, but do increase people awareness , and hopefully this can help people (like me) interested in this, but also for malware researchers and Analysts."
-
 But the major point, is actually - as said above, but adding the following reason:
 - to help the feature find these malware and samples. As I think there are very little (if not none) of these **easily** accessible online. (Samples that is)
 
