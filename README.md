@@ -4,7 +4,7 @@ All these I thought of earlier providing, since I was one of the people that got
 
 But I thought of providing all of these to malware researchers. As well as for academical purposes.
 
-#### Note: In the video I provided, I had slight problems with USB Keyboard. So I wrote "EDUCATIONAK" but meant "EDUCATIONAL". Contact me for any details.
+##### Note: In the video I provided, I had slight problems with USB Keyboard. So I wrote "EDUCATIONAK" but meant "EDUCATIONAL". Contact me for any details.
 
 
 (Q) Why would you want to upload malware? You're literally providing CyberWeapons!
@@ -16,7 +16,32 @@ But the major point, is actually - as said above, but adding the following reaso
 "AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
 
 
-# Fanny (and the other files, completely provided)
+### To Detect fanny, refer to this article: 
+- https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/  (And some the others)  at "Indicators of compromise (“one of each”):"
+
+
+#### I have provided 1 more (fanny) way, to detect (fanny) by using MetaSploit. (Part of the *fanny* phun!)
+Located in this Git, here:
+    - https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt
+
+Maybe someone could create a Metasploit Module to detect Fanny? as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
+
+    - **post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check**
+
+why not make some for:
+Fanny (as shown by me in **Detection/By-Application/MetaSploit/FannyDetect.txt** )
+Flamer
+EquationDrug
+GROK
+(And the many others in "the family")
+
+
+- https://www.wired.com/2015/02/nsa-firmware-hacking/
+
+
+
+
+## Fanny (and the other files, completely provided)
 ### includes:
 
  
@@ -67,20 +92,11 @@ If you spot an mistake, please let me now.
 
     - dll_installer.dll [will provide soon]
 
-
-
-   #### I am in kinda a hurry right now (Going 1 course and doing repetition on Cryptography) This is why I haven't really made this sorted & neat (yet) but will do later. 
+#### I am in kinda a hurry right now (Going 1 course and doing repetition on Cryptography) This is why I haven't really made this sorted & neat (yet) but will do later. 
    
-
-   
-- https://www.wired.com/2015/02/nsa-firmware-hacking/
-
-
-
 
 
 Urgent Contacts: (Malware Researchers)
 Discord: Ken-Kaneki#3978
 Mail:    william-martens@protonmail.ch
-
 
