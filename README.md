@@ -24,18 +24,40 @@ But the major point, is actually - as said above, but adding the following reaso
 
 #### I have provided 1 more (fanny) way, to detect (fanny) by using MetaSploit. (Part of the *fanny* phun!)
 Located in this Git, here:
-    - https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt
+    -  https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt
+    
 
-Maybe someone could create a Metasploit Module to detect Fanny? as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
+    
+    (short dump of the file)
+    
+* ---------------------------------------------------------------------------------------------------------------------------- *
 
-    - **post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check**
+            [+] 84.xxx.x5.31:445   - Command completed successfully!
+            [*] 84.xxx.x5.31:445   - Output for "reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4":
 
-why not make some for:
-Fanny (as shown by me in **Detection/By-Application/MetaSploit/FannyDetect.txt** )
-Flamer
-EquationDrug
-GROK
-(And the many others in "the family")
+             - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4
+                 - filter8     REG_BINARY      6C7361737323433A5C57494E444F57535C73797374656D33325C6D73636F7277696E2E646C6C00
+                 - DevNode     REG_DWORD       0x0
+                 - Driver      REG_SZ  c:\WINDOWS\SYSTEM32\ECELP4.ACM
+                 - filter3     REG_BINARY      6578706C6F72657223633A5C77696E646F77735C73797374656D33325C7368656C6C646F632E646C6C00
+                 - filter2     REG_BINARY      77696E6C6F676F6E23633A5C77696E646F77735C4D534167656E745C4147454E544350442E444C4C00
+
+* ---------------------------------------------------------------------------------------------------------------------------- *
+
+
+
+### Maybe someone could create a Metasploit Module to detect Fanny? as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
+
+     post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check
+
+#### why not make some for:
+
+ - Fanny (as I show in **https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt** )
+ - Flamer
+ - EquationDrug
+ - GROK
+                (And the many others in "the family")
+
 
 
 - https://www.wired.com/2015/02/nsa-firmware-hacking/
@@ -43,7 +65,7 @@ GROK
 
 
 
-## Fanny (and the other files, completely provided)
+##  Fanny (and the other files, completely provided)
 ### includes:
 
  
