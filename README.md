@@ -2,12 +2,17 @@
 
     Message from me (William Martens)
    
+-------------
+
 All these I thought of earlier providing, since I was one of the people that got this on my USB stick (my USB got infected long long time ago, Years ago now.) - But now - when I looked closer and I saw that some of these isn't even available online (Some of them are, still - like fanny.bmp and maybe some others, and EVELP4.acm) but not any of mscorwin / comhost, etc. (If they are - I would love to hear that! and the source of it. The more sources of same malware - the better. It strengthens the "community" if I can put it that way. And it is easier to find if all material is gathered at one place.
 
 But I thought of providing all of these to malware researchers. As well as for academical purposes.
 
-##### Note: In the video I provided, I had slight problems with USB Keyboard. So I wrote "EDUCATIONAK" but meant "EDUCATIONAL". Contact me for any details.
+-------------
 
+##### Note: In the video I provided, I had slight problems with the USB Keyboard. So I wrote "EDUCATIONAK" but meant "EDUCATIONAL". Contact me for any details.
+
+-------------
 
 (Q) Why would you want to upload malware? You're literally providing CyberWeapons!
 (A) I believe in Open-Source, and that even though in this scenario, can hopefully help malware researchers provide better protection.
@@ -15,18 +20,20 @@ But I thought of providing all of these to malware researchers. As well as for a
 But the major point, is actually - as said above, but adding the following reason:
 - to help the feature find these malware and samples. As I think there are very little (if not none) of these **easily** accessible online. (Samples that is)
 
-"AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
-
+-------------
 
 ### To Detect fanny, refer to this article: 
 - https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/  (And some the others)  at "Indicators of compromise (“one of each”):"
+
+And (for "optional" reading) I would suggest this one:
+"AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
 
 
 #### I have provided 1 more (fanny) way, to detect (fanny) by using MetaSploit. (Part of the *fanny* phun!)
 Located in this Git, here:
     -  https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt
     
-
+-------------
     
     (short dump of the file)
     
@@ -38,15 +45,16 @@ Located in this Git, here:
              - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4
                  - filter8     REG_BINARY      6C7361737323433A5C57494E444F57535C73797374656D33325C6D73636F7277696E2E646C6C00
                  - DevNode     REG_DWORD       0x0
-                 - Driver      REG_SZ  c:\WINDOWS\SYSTEM32\ECELP4.ACM
+                 - Driver      REG_SZ          c:\WINDOWS\SYSTEM32\ECELP4.ACM
                  - filter3     REG_BINARY      6578706C6F72657223633A5C77696E646F77735C73797374656D33325C7368656C6C646F632E646C6C00
                  - filter2     REG_BINARY      77696E6C6F676F6E23633A5C77696E646F77735C4D534167656E745C4147454E544350442E444C4C00
 
 * ---------------------------------------------------------------------------------------------------------------------------- *
 
+-------------
 
-
-### Maybe someone could create a Metasploit Module to detect Fanny? as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
+## Maybe someone could create a Metasploit Module to detect Fanny based on the above?
+## - as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
 
      post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check
 
@@ -59,17 +67,22 @@ Located in this Git, here:
                 (And the many others in "the family")
 
 
+-------------
+
 
 - https://www.wired.com/2015/02/nsa-firmware-hacking/
 
 
+-------------
 
 
 ##  Fanny (and the other files, completely provided)
 ### includes:
 
- 
-If you spot an mistake, please let me now.
+
+-------------
+
+
 
 - 
     - __d__.lnk - 148300b4c895bef313bee5eea9f40956510bc1e3878917cdd22baeabefb91179
@@ -115,6 +128,17 @@ If you spot an mistake, please let me now.
     - https://www.virustotal.com/gui/file/1e77ae780e3f6389ffd6eae92887e531bf156943e31302c93be08a57ea90e6dd/detection
 
     - dll_installer.dll [will provide soon]
+
+
+-------------
+
+
+### If you spot an mistake, please let me now.
+
+
+-------------
+
+
 
 #### I am in kinda a hurry right now (Going 1 course and doing repetition on Cryptography) This is why I haven't really made this sorted & neat (yet) but will do later. 
    
