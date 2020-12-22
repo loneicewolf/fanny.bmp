@@ -2,6 +2,11 @@
 
     Message from me (William Martens)
    
+# For detection of fanny.bmp infections using MetaSploit,
+## you can now use my metasploit module:
+### avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module
+
+   
 -------------
 
 All these I thought of earlier providing, since I was one of the people that got this on my USB stick (my USB got infected long long time ago, Years ago now.) - But now - when I looked closer and I saw that some of these isn't even available online (Some of them are, still - like fanny.bmp and maybe some others, and EVELP4.acm) but not any of mscorwin / comhost, etc. (If they are - I would love to hear that! and the source of it. The more sources of same malware - the better. It strengthens the "community" if I can put it that way. And it is easier to find if all material is gathered at one place.
