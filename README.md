@@ -4,8 +4,14 @@
    
 # For detection of fanny.bmp infections using MetaSploit,
 ## you can now use my metasploit module:
-### avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module
+#### avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module
 
+
+-------------
+
+
+### POC
+Screenshot: https://user-images.githubusercontent.com/68499986/102911824-e2678280-447c-11eb-8495-7180a52c7266.png
    
 -------------
 
