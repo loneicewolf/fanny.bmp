@@ -2,8 +2,8 @@
 
     Message from me (William Martens)
    
-# For detection of fanny.bmp infections using MetaSploit,
-## you can now use my metasploit module:
+### For detection of fanny.bmp infections using MetaSploit,
+### you can now use my metasploit module:
 #### avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module
 
 
