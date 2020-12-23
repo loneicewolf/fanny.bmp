@@ -69,13 +69,16 @@ Located in this Git, here:
 
      post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check
 
+
 #### why not make some for:
 
- - Fanny (as I show in **https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt** )
+ - [x] done. Continuing below. Fanny (as I show in **https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt** )
  - Flamer
  - EquationDrug
  - GROK
                 (And the many others in "the family")
+
+
 
 
 -------------
