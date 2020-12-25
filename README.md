@@ -6,10 +6,15 @@
 
 -------------
 
-### POC
-Screenshot: https://user-images.githubusercontent.com/68499986/102911824-e2678280-447c-11eb-8495-7180a52c7266.png
+## POCS
+
+By-OS:
+
+ - [x] Windows XP Pro (SP3)   Screenshot: https://user-images.githubusercontent.com/68499986/102911824-e2678280-447c-11eb-8495-7180a52c7266.png
+ - [x] Windows 10 Pro N (x64) Screenshot: https://github.com/loneicewolf/fanny.bmp/blob/main/Windows10%20X64%20fanny_bmp_check.png
 
 -------------
+
 
 All these I thought of earlier providing, since I was one of the people that got this on my USB stick (my USB got infected long long time ago, Years ago now.) - But now - when I looked closer and I saw that some of these isn't even available online (Some of them are, still - like fanny.bmp and maybe some others, and ECELP4.acm) but not any of mscorwin / comhost, etc. (If they are - I would love to hear that! and the source of it. The more sources of same malware - the better. It strengthens the "community" if I can put it that way. And it is easier to find if all material is gathered at one place.
 But I thought of providing all of these to malware researchers. As well as for academical purposes.
