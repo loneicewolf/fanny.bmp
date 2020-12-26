@@ -12,7 +12,7 @@
 By-OS:
 
  - [x] Windows XP Pro (SP3)   Screenshot: https://user-images.githubusercontent.com/68499986/102911824-e2678280-447c-11eb-8495-7180a52c7266.png
- - [x] Windows 10 Pro N (x64) Screenshot: https://github.com/loneicewolf/fanny.bmp/blob/main/Windows10%20X64%20fanny_bmp_check.png
+ - [x] Windows 10 Pro N (x64) Screenshot: https://raw.githubusercontent.com/loneicewolf/fanny.bmp/main/Windows10%20X64%20fanny_bmp_check.png
 
 -------------
 
