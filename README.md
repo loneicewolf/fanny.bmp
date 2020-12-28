@@ -1,4 +1,7 @@
-#### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug (I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide".
+#### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug 
+
+### (that I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide").
+
 But the unexpected thing was "to me anyway" that, it crashed explorer (and, the whole XP) while doing this.) This is done by "using"
 the rootkit provided in fanny.bmp.
 
@@ -10,6 +13,9 @@ If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the fil
 The renewed video is here:
 https://github.com/loneicewolf/fanny.bmp/blob/main/ReNewed(Fannybmp%20Winxp%20Poc)%20(With%20Rootkit%20Demo%20%2B%20Bug%20Crash)%20.mp4.7z
 
+The screenshot of the "empty" (not infected by fanny) USB (that, was "experimented" with and  later, as well infected by fanny.bmp) Displaying the files that the rootkit tried to hide, but it crashed explorer.exe with 2 error messages instead.
+
+https://github.com/loneicewolf/fanny.bmp/blob/main/SanUltra%20(Fanny.bmp%20Bug).png
 
 
 #### For detection of fanny.bmp infections using MetaSploit,
