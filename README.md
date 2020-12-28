@@ -1,5 +1,6 @@
 #### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug 
 
+
  (that I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide").
 
 But the unexpected thing was "to me anyway" that, it crashed explorer (and, the whole XP) while doing this.) This is done by "using"
