@@ -1,7 +1,12 @@
-#### Note, I will create a new POC video demonstrating fanny.bmp, as well as a bug (I do not think is known?) But, you can crash explorer (crash Windows xp) by "using"
-the rootkit provided in fanny.bmp. If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
+#### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug (I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide".
+But the unexpected thing was "to me anyway" that, it crashed explorer (and, the whole XP) while doing this.) This is done by "using"
+the rootkit provided in fanny.bmp.
 
-This new video will be here soon!
+### How to re-create the Crash/bug:
+### Proper description here later, watch the video provided in a .7z file (it was too big for github so I compressed it )
+
+If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
+
 
 
 #### For detection of fanny.bmp infections using MetaSploit,
