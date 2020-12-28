@@ -1,3 +1,8 @@
+#### Note, I will create a new POC video demonstrating fanny.bmp, as well as a bug (I do not think is known?) But, you can crash explorer (crash Windows xp) by "using"
+the rootkit provided in fanny.bmp. If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
+
+This new video will be here soon!
+
 
 #### For detection of fanny.bmp infections using MetaSploit,
 #### you can now use my metasploit module avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module/blob/main/fanny_bmp_check.rb
