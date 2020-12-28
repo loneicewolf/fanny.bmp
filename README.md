@@ -7,6 +7,9 @@ the rootkit provided in fanny.bmp.
 
 If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
 
+The renewed video is here:
+https://github.com/loneicewolf/fanny.bmp/blob/main/ReNewed(Fannybmp%20Winxp%20Poc)%20(With%20Rootkit%20Demo%20%2B%20Bug%20Crash)%20.mp4.7z
+
 
 
 #### For detection of fanny.bmp infections using MetaSploit,
