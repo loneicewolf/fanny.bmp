@@ -9,7 +9,7 @@ But the unexpected thing was "to me anyway" that, it crashed explorer (and, the 
 the rootkit provided in fanny.bmp.
 
 ### How to re-create the Crash/bug:
-### watch the video https://www.youtube.com/watch?v=Uto_lcD2f38 (youtube)
+#### watch the video https://www.youtube.com/watch?v=Uto_lcD2f38 (youtube)
 
 If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
 
