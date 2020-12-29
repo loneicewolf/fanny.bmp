@@ -1,13 +1,15 @@
-#### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug 
+### Fanny.bmp malware/worm
 
 
+
+#### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug
  (that I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide").
 
 But the unexpected thing was "to me anyway" that, it crashed explorer (and, the whole XP) while doing this.) This is done by "using"
 the rootkit provided in fanny.bmp.
 
 ### How to re-create the Crash/bug:
-### Proper description here later, watch the video provided in a .7z file (it was too big for github so I compressed it )
+### watch the video https://www.youtube.com/watch?v=Uto_lcD2f38 (youtube)
 
 If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
 
