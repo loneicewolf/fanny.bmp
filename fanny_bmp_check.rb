@@ -45,29 +45,25 @@ class MetasploitModule < Msf::Post
         'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8'
       ]
 
-    match = 0
-
+    matches = {}
     print('Searching registry on Target for Fanny.bmp artifacts.')
+    artifacts.each do |key|
+      (key, value) = parse_artifacts(key)
+      has_key = registry_enumkeys(key)
+      has_val = registry_enumvals(key)
+      next unless has_key.include?(value) || has_val.include?(value)
 
-    begin
-      artifacts.each do |key|
-        (key, value) = parse_artifacts(key)
-        has_key = registry_enumkeys(key)
-        has_val = registry_enumvals(key)
-
-        next unless has_key.include?(value) || has_val.include?(value)
-
-        print_good("Target #{key}\\#{value} found in registry.")
-        match += 1
-
-        report_vuln(
-          host: session.session_host,
-          name: name,
-          info: "Target #{key}\\#{value} found in registry.",
-          refs: references,
-          exploited_at: Time.now.utc
-        )
-      end
+      print_good("Target #{key}\\#{value} found in registry.")
+      matches[key] = value
+    end
+    unless matches.empty?
+      report_vuln(
+        host: session.session_host,
+        name: name,
+        info: "Target keys found in registry:\n#{matches.map { |k, v| "#{k}: #{v}\n" }.join}",
+        refs: references,
+        exploited_at: Time.now.utc
+      )
     end
     print_status('Done.')
   end
