@@ -1,54 +1,78 @@
 ##
 # This module requires Metasploit: https://metasploit.com/download
-# Current source: https://github.com/loneicewolf/metasploit_fanny_check_module
+# Current source: https://github.com/rapid7/metasploit-framework
 ##
 
-require 'msf/core'
-require 'msf/core/post/common'
-require 'msf/core/post/windows/priv'
 class MetasploitModule < Msf::Post
   include Msf::Post::Common
   include Msf::Post::Windows::Registry
+  include Msf::Auxiliary::Report
 
   def initialize(info = {})
-    super(update_info(info,
-                      'Name' => 'FannyBMP Registry Check',
-                      'Description' => 'This module searches for the Fanny.bmp worm related registry keys',
-                      'License' => MSF_LICENSE,
-                      'Author' => ['William M.'],
-                      'Platform' => ['win'],
-                      'SessionTypes' => ['meterpreter'],
-                      'References' => [['URL', 'https://securelist.com/a-fanny-equation-i-am-your-father-stuxnet/68787']]))
+    super(
+      update_info(
+        info,
+        'Name' => 'FannyBMP or Dementiawheel Detection Registry Check',
+        'Description' => %q{
+          This module searches for the Fanny.bmp worm related reg keys.
+          fannybmp is a worm that exploited zero day vulns.
+          (more specifically, the LNK Exploit CVE-2010-2568).
+          Which allowed it to spread even if USB Autorun was turned off.
+          This is exactly the same Exploit that was used in StuxNet.
+        },
+        'License' => MSF_LICENSE,
+        'Author' => ['William M.'],
+        'Platform' => ['win'],
+        'SessionTypes' => ['meterpreter', 'shell'],
+        'References' =>
+        [
+          ['URL', 'https://securelist.com/a-fanny-equation-i-am-your-father-stuxnet/68787'],
+          ['CVE', '2010-2568']
+        ]
+      )
+    )
   end
 
   def run
-    # https://securelist.com/a-fanny-equation-i-am-your-father-stuxnet/68787
-    query = 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\"ECELP4",'
-    query += 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\Driver,'
-    query += 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter2,'
-    query += 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter3,'
-    query += 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8'
+
+    artifacts =
+      [
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\"acm"',
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4',
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\Driver',
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter2',
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter3',
+        'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8'
+      ]
 
     match = 0
 
-    print_status("Searching registry on #{sysinfo['Computer']} for Fanny.bmp artifacts.")
-    keys = query.split(/,/)
-    begin
-            keys.each do |key|
-              (key, value) = parse_query(key)
-              has_key = registry_enumkeys(key)
-              has_val = registry_enumvals(key)
+    print('Searching registry on Target for Fanny.bmp artifacts.')
 
-              if has_key.include?(value) || has_val.include?(value)
-                print_good("#{sysinfo['Computer']}: #{key}\\#{value} found in registry.")
-                match += 1
-              end
-            end
-    rescue StandardError; end
-    print_status("#{sysinfo['Computer']}: #{match} result(s) found in registry.")
+    begin
+      artifacts.each do |key|
+        (key, value) = parse_artifacts(key)
+        has_key = registry_enumkeys(key)
+        has_val = registry_enumvals(key)
+
+        next unless has_key.include?(value) || has_val.include?(value)
+
+        print_good("Target #{key}\\#{value} found in registry.")
+        match += 1
+
+        report_vuln(
+          host: session.session_host,
+          name: name,
+          info: "Target #{key}\\#{value} found in registry.",
+          refs: references,
+          exploited_at: Time.now.utc
+        )
+      end
+    end
+    print_status('Done.')
   end
 
-  def parse_query(key)
+  def parse_artifacts(key)
     path = key.split('\\')
     value = path[-1]
     path.pop
@@ -56,4 +80,3 @@ class MetasploitModule < Msf::Post
     [key, value]
   end
 end
-
