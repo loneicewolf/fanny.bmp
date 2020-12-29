@@ -11,9 +11,19 @@ the rootkit provided in fanny.bmp.
 
 If you name a folder/file/shortcut "__e__.lnk" (Note: Explorer will make the file not-displayed when you type __e__) and then, hopefully - it will crash with an error message. Or 2 error messages by the way.
 
-The renewed video is here:
 
+## POC  (Proof Of Concept) Video(s)
+
+-------------------
+
+### The renewed video is here:
+
+https://youtu.be/Uto_lcD2f38
+
+###As well as the video file itself, here:
 https://github.com/loneicewolf/fanny.bmp/blob/main/ReNewed(Fannybmp%20Winxp%20Poc)%20(With%20Rootkit%20Demo%20%2B%20Bug%20Crash)%20.mp4.7z
+
+-------------------
 
 The screenshot of the "empty" (not infected by fanny) USB (that, was "experimented" with and  later, as well infected by fanny.bmp) Displaying the files that the rootkit tried to hide, but it crashed explorer.exe with 2 error messages instead.
 
