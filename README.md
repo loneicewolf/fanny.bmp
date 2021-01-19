@@ -1,6 +1,13 @@
 ### Fanny.bmp malware/worm
 
 
+     Major message to anyone closely monitoring this page:
+
+    I will update this even more, (which I want to make sure is obvious!)
+    It will only take some time from now on, I am quite busy right now, with various things (Courses, preparations, etc)
+    But anyone should feel free contact me for anything - if you have questions or similar. (About this repo, or about anything else)
+    Good day. Thanks for showing interest.
+
 
 #### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug
  (that I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide").
