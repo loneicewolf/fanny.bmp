@@ -9,6 +9,8 @@
     Good day. Thanks for showing interest.
 
 
+### [+1] video, demonstrating a Re-Creation of fanny.bmp to display a MessageBox(soon cmd)
+
 #### Note, I have created a new POC video demonstrating fanny.bmp, as well as a bug
  (that I do not think is known? At least probably not to the developers that made fanny.bmp, although this is probably quite expected, that it would hide files using the prefix the rootkit is designed to just "hide").
 
