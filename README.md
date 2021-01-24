@@ -1,5 +1,7 @@
 ### Fanny.bmp malware/worm
 
+## Related: Agent.btz (finally!) added binary sample:  (more coming) https://github.com/loneicewolf/Agent.btz
+
 ##### Related to stuxnet: https://github.com/loneicewolf/Stuxnet-Source
 
 
