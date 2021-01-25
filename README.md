@@ -4,13 +4,16 @@
 
 ##### Related to stuxnet: https://github.com/loneicewolf/Stuxnet-Source
 
+#### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Here: 
+
+
+https://github.com/rapid7/metasploit-framework/commit/20590e91fbadcd299f8f1c1700d47851df2dcdbf
+
+https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/windows/gather/forensics/fanny_bmp_check.md
+
+
 
      Major message to anyone closely monitoring this page:
-
-    I will update this even more, (which I want to make sure is obvious!)
-    It will only take some time from now on, I am quite busy right now, with various things (Courses, preparations, etc)
-    But anyone should feel free contact me for anything - if you have questions or similar. (About this repo, or about anything else)
-    Good day. Thanks for showing interest.
 
 
 ##### [+1] video, demonstrating a Re-Creation of fanny.bmp to display a MessageBox(soon cmd)
