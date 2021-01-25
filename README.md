@@ -13,8 +13,6 @@ https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules
 
 
 
-     Major message to anyone closely monitoring this page:
-
 
 ##### [+1] video, demonstrating a Re-Creation of fanny.bmp to display a MessageBox(soon cmd)
 
