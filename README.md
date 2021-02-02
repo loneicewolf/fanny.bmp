@@ -7,7 +7,7 @@ https://github.com/loneicewolf/Agent.btz
 
 
 
-#### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Here: 
+#### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Below @ Metasploit
 
 
 ## Documentation for Module:
