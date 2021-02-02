@@ -1,10 +1,11 @@
 ### Fanny.bmp malware/worm
 ###### For the story Refer to both the article(s) I've been provided below, but also - if you're interested;  read my theory fanny.bmp's and StuXNet's purpose in the ISSUES page. "The Purpose of Fanny.bmp - in relation to StuXNet #7 "
 
+Related samples: Agent.btz and  Stuxnet
+https://github.com/loneicewolf/Stuxnet-Source
+https://github.com/loneicewolf/Agent.btz
 
-##### Related: Agent.btz (finally!) added binary sample:  (more coming) https://github.com/loneicewolf/Agent.btz
 
-##### Related to stuxnet: https://github.com/loneicewolf/Stuxnet-Source
 
 #### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Here: 
 
