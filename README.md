@@ -10,9 +10,11 @@ https://github.com/loneicewolf/Agent.btz
 #### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Here: 
 
 
-https://github.com/rapid7/metasploit-framework/commit/20590e91fbadcd299f8f1c1700d47851df2dcdbf
+## Documentation for Module:
+https://github.com/rapid7/metasploit-framework/tree/master/modules/post/windows/gather/forensics/
 
-https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/post/windows/gather/forensics/fanny_bmp_check.md
+## Module itself (created dirs just for it)
+https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
 
 
 
