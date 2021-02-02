@@ -11,10 +11,10 @@ https://github.com/loneicewolf/Agent.btz
 
 
 ## Documentation for Module:
-https://github.com/rapid7/metasploit-framework/tree/master/modules/post/windows/gather/forensics/
+https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
 
 ## Module itself (created dirs just for it)
-https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
+https://github.com/rapid7/metasploit-framework/tree/master/modules/post/windows/gather/forensics/
 
 
 
