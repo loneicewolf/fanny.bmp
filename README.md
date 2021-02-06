@@ -1,22 +1,18 @@
-### Fanny.bmp malware/worm
+# FannyBMP or DementiaWheel
+
 ###### For the story Refer to both the article(s) I've been provided below, but also - if you're interested;  read my theory fanny.bmp's and StuXNet's purpose in the ISSUES page. "The Purpose of Fanny.bmp - in relation to StuXNet #7 "
 
-Related samples: Agent.btz and  Stuxnet
-https://github.com/loneicewolf/Stuxnet-Source
-https://github.com/loneicewolf/Agent.btz
+#### Related samples: Agent.btz and  Stuxnet
+
+ - https://github.com/loneicewolf/Stuxnet-Source
+ - https://github.com/loneicewolf/Agent.btz
 
 
-
-#### Major message: Now you can detect fanny.bmp using my metasploit module, avail. Below @ Metasploit
-
-
-## Documentation for Module:
-https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
-
-## Module itself (created dirs just for it)
-https://github.com/rapid7/metasploit-framework/tree/master/modules/post/windows/gather/forensics/
-
-
+Refs:
+ - https://blog.rapid7.com/2021/01/29/metasploit-wrap-up-96/
+ - https://www.rapid7.com/db/modules/post/windows/gather/forensics/fanny_bmp_check/
+ - https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
+ - https://github.com/rapid7/metasploit-framework/tree/master/modules/post/windows/gather/forensics/
 
 
 ##### [+1] video, demonstrating a Re-Creation of fanny.bmp to display a MessageBox(soon cmd)
@@ -92,6 +88,7 @@ But the major point, is actually - as said above, but adding the following reaso
 
 ### To Detect fanny, refer to this article: 
 - https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/  (And some the others)  at "Indicators of compromise (“one of each”):"
+- https://www.rapid7.com/db/modules/post/windows/gather/forensics/fanny_bmp_check/ To detect it in Registry
 
 And (for "optional" reading) I would suggest this one:
 "AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
@@ -99,8 +96,7 @@ And (for "optional" reading) I would suggest this one:
 
 ### POC:
 
-
-First, Git clone the fanny_bmp_check.rb from https://github.com/loneicewolf/metasploit_fanny_check_module/blob/main/fanny_bmp_check.rb
+First, Git clone the fanny_bmp_check.rb from  Metasploit! (Now - always go to metasploit (oficially) to get the fanny.bmp module. To always get the latest version of it. In which I believe is vital when we talk security)
 
 place it into your msf folder, (important, check the following step before placing it) usually located in /root/.msf4/modules/
 
@@ -130,8 +126,6 @@ meterpreter > run post/windows/gather/forensics/fanny_bmp_check
     [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter3 found in registry.
     [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8 found in registry.
     [*] WORKSTATION1: 4 result(s) found in registry.
-
-
 
 
 
