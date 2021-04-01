@@ -1,7 +1,7 @@
 # XOR-decrypted content of a infected SANULTRA with fanny.bmp:
 # (system must be offline it seems)
 # contents:
-# <..binary/raw data.>
+# <..binary/raw data>
 
 MACHINENAME                                                                                                                                                                                 
 SYSTEM                                                                                                                                                                                      
