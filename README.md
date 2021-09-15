@@ -1,5 +1,21 @@
 # FannyBMP or DementiaWheel
 
+
+
+---
+### MAJOR update coming soon:
+I will (when  I am done with the OSCP I am currently enrolling in)
+Soon create & upload the following:
+ - Recording (From scratch(0%), to 100%) of when Fanny.bmp infects a PLC (although.. It does *not* do anything, or even "infects a PLC" but, it detects PLC's in a kinda-similar way StuXNet did.) (although a virtual one, since I have not *real* access to a nuclear reactor.. For.. well, quite - **obvious reasons.**
+ - Recording (again, From 0 to 100%)  of how one can "re-weaponize" Fanny.bmp (or,DementiaWheel as it's codename suggests) the USB-Backdoor to carry commands from & to Metasploit. (This is tested and, let's just say - it works, but needs improvement. (Massive improvements that is)) <- Still working on it.
+ - A mini-library written in C (in combination with Lua) to make (the 2 points above ) a **bit** more user-friendly 
+ -    (JUST so you don't need to be a debugger-professional to understand how to get a reverse shell trough fanny's USB Backdoor for example.)
+
+---
+
+
+
+
 ###### For the story Refer to both the article(s) I've been provided below, but also - if you're interested;  read my theory fanny.bmp's and StuXNet's purpose in the ISSUES page. "The Purpose of Fanny.bmp - in relation to StuXNet #7 "
 
 #### Related samples: Agent.btz and  Stuxnet
