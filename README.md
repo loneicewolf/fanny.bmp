@@ -4,7 +4,7 @@
 
 ---
 ### MAJOR update coming soon:
-I will (when  I am done with the OSCP I am currently enrolling in)
+I will (when  I am done with the OSCP Exam, which is very soon! it actually is on 18th Jan! (writing from 2021 25 Dec (Happy Christmas! :) )))
 Soon create & upload the following:
  - Recording (From scratch(0%), to 100%) of when Fanny.bmp infects a PLC (although.. It does *not* do anything, or even "infects a PLC" but, it detects PLC's in a kinda-similar way StuXNet did.) (although a virtual one, since I have not *real* access to a nuclear reactor.. For.. well, quite - **obvious reasons.**
  - Recording (again, From 0 to 100%)  of how one can "re-weaponize" Fanny.bmp (or,DementiaWheel as it's codename suggests) the USB-Backdoor to carry commands from & to Metasploit. (This is tested and, let's just say - it works, but needs improvement. (Massive improvements that is)) <- Still working on it.
