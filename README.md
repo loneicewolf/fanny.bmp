@@ -1,5 +1,6 @@
 # FannyBMP or DementiaWheel
 
+--- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
 
 
 ---
