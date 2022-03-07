@@ -2,6 +2,10 @@
 
 --- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
 
+### Note! the technical report I wrote has a fiew painfully obvious flaws (like being written in a hurry, so it has soem grammar errors)
+thanks for understanding!
+have a good day!
+
 
 ---
 ### MAJOR update coming soon:
