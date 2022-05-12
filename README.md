@@ -2,7 +2,23 @@
 
 --- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
 
-### Note! the technical report I wrote has a fiew painfully obvious flaws (like being written in a hurry, so it has soem grammar errors)
+#### Note! the technical report I wrote has a few* painfully-obvious flaws  (like being written in a hurry, so it has some* grammar errors)
+
+## important below
+⚠️ this repo has serious issues. (1 major is the lot of Unnec. stuff, like old README (etc), ) **Why?!** *well, when I uploaded this - I did not think this would be interesting for others; so I didn't pay attention to make it "really readable"*
+
+⚠️ which I was wrong about (soo wrong) - which is why I **will change this very soon** as I want this to be as clean as possible;
+
+### therefore - please rutiely check the 2nd branch (if possible)
+- https://github.com/loneicewolf/fanny.bmp/tree/fresh_2022
+- https://github.com/loneicewolf/fanny.bmp/branches
+
+#### as I will uplaod and make it all very cleanly organized; with screenshots; and everything in one place(or, Hopefully I will be able to at least, make it decently well)
+
+
+----
+----
+
 thanks for understanding!
 have a good day!
 
