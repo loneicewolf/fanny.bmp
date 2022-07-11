@@ -9,15 +9,13 @@
 
 ⚠️ which I was wrong about (soo wrong) - which is why I **will change this very soon** as I want this to be as clean as possible;
 
-### therefore - please rutiely check the 2nd branch (if possible)
+### therefore - please routinely check the 2nd branch (if possible)
 - https://github.com/loneicewolf/fanny.bmp/tree/fresh_2022
 - https://github.com/loneicewolf/fanny.bmp/branches
 
-#### as I will uplaod and make it all very cleanly organized; with screenshots; and everything in one place(or, Hopefully I will be able to at least, make it decently well)
+#### as I will upload and make it all very cleanly organized; with screenshots; and everything in one place(or, Hopefully I will be able to at least, make it decently well)
 
 
-----
-----
 
 thanks for understanding!
 have a good day!
@@ -29,8 +27,10 @@ I will (when  I am done with the OSCP Exam, which is very soon! it actually is o
 Soon create & upload the following:
  - Recording (From scratch(0%), to 100%) of when Fanny.bmp infects a PLC (although.. It does *not* do anything, or even "infects a PLC" but, it detects PLC's in a kinda-similar way StuXNet did.) (although a virtual one, since I have not *real* access to a nuclear reactor.. For.. well, quite - **obvious reasons.**
  - Recording (again, From 0 to 100%)  of how one can "re-weaponize" Fanny.bmp (or,DementiaWheel as it's codename suggests) the USB-Backdoor to carry commands from & to Metasploit. (This is tested and, let's just say - it works, but needs improvement. (Massive improvements that is)) <- Still working on it.
- - A mini-library written in C (in combination with Lua) to make (the 2 points above ) a **bit** more user-friendly 
+ - A mini-library written in C (in combination with Lua) to make (the 2 points above ) a **bit** more user-friendly
  -    (JUST so you don't need to be a debugger-professional to understand how to get a reverse shell trough fanny's USB Backdoor for example.)
+
+
 
 ---
 
@@ -68,7 +68,7 @@ If you name a folder/file/shortcut " _ _ e _ _ . l n k " (Note: Explorer will ma
 
 ## POC  (Proof Of Concept) Video(s)
 
--------------------
+-------------------a
 
 ### The renewed video is here:
 
@@ -91,12 +91,14 @@ https://github.com/loneicewolf/fanny.bmp/blob/main/2Errors(while%20rootkit%20tri
 
 #### For detection of fanny.bmp infections using MetaSploit,
 #### you can now use my metasploit module avail. here: https://github.com/loneicewolf/metasploit_fanny_check_module/blob/main/fanny_bmp_check.rb
-#### Documentation for 
-#### the moudle avail. here: at the wiki  https://github.com/loneicewolf/fanny.bmp/wiki/Docs
+#### Documentation for
+#### the module avail. here: at the wiki  https://github.com/loneicewolf/fanny.bmp/wiki/Docs
 
 -------------
 
 ## POCS
+
+
 
 By-OS:
 
@@ -123,12 +125,12 @@ But the major point, is actually - as said above, but adding the following reaso
 
 -------------
 
-### To Detect fanny, refer to this article: 
+### To Detect fanny, refer to this article:
 - https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/  (And some the others)  at "Indicators of compromise (“one of each”):"
 - https://www.rapid7.com/db/modules/post/windows/gather/forensics/fanny_bmp_check/ To detect it in Registry
 
 And (for "optional" reading) I would suggest this one:
-"AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways) 
+"AiR-ViBeR: Exfiltrating Data from Air-GappedComputers via Covert Surface ViBrAtIoNs." - writeup about Stuxnet,Fanny, Agent.btz (which is really like each others in ways)
 
 
 ### POC:
