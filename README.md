@@ -1,6 +1,11 @@
 # FannyBMP or DementiaWheel
 
+related: https://github.com/loneicewolf/ReverseEngineering
+
+
 --- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
+
+
 
 #### Note! the technical report I wrote has a few* painfully-obvious flaws  (like being written in a hurry, so it has some* grammar errors)
 
