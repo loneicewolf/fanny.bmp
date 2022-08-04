@@ -1,6 +1,6 @@
 # FannyBMP or DementiaWheel
 
-related: https://github.com/loneicewolf/ReverseEngineering
+related: [Fanny.bmp likely the precursor to stuxnet](https://github.com/loneicewolf/Stuxnet-Source)
 
 
 --- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
