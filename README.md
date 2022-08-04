@@ -1,7 +1,10 @@
 # FannyBMP or DementiaWheel
 
-related: [Fanny.bmp likely the precursor to stuxnet](https://github.com/loneicewolf/Stuxnet-Source)
-
+### related:
+- [Gauss](Https://github.com/loneicewolf/Gauss-Src)
+- [Stars](https://github.com/loneicewolf/Stars-virus)
+- [Duqu](https://github.com/loneicewolf/DUQU)
+- [FlamER](https://github.com/loneicewolf/flame-sourcecode)
 
 --- please note that documentation(writing) (as below) is **not** my strongest front; so please this will be fuzzy; hopefully readable. -----
 
