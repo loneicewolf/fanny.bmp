@@ -76,7 +76,7 @@ If you name a folder/file/shortcut " _ _ e _ _ . l n k " (Note: Explorer will ma
 
 ## POC  (Proof Of Concept) Video(s)
 
--------------------a
+-------------------
 
 ### The renewed video is here:
 
