@@ -1,5 +1,24 @@
 # FannyBMP or DementiaWheel
 
+
+Note! the technical report I wrote has a few* painfully-obvious flaws  (like being written in a hurry, so it has some* grammar errors)
+the report will be re-written and re-publicized as the same with a new version number. This new version, will be much better in general. And more Related to the *actual research I did on the malware* rather than the malware in general.
+
+I have quite little time on my hands now, so it will be delayd (this is just how I am).
+
+
+
+added space below for to easier readability by mobile devices.
+```
+
+
+
+
+
+
+```
+
+
 ### related:
 - [Gauss](Https://github.com/loneicewolf/Gauss-Src)
 - [Stars](https://github.com/loneicewolf/Stars-virus)
@@ -10,7 +29,6 @@
 
 
 
-#### Note! the technical report I wrote has a few* painfully-obvious flaws  (like being written in a hurry, so it has some* grammar errors)
 
 ## important below
 ⚠️ this repo has serious issues. (1 major is the lot of Unnec. stuff, like old README (etc), ) **Why?!** *well, when I uploaded this - I did not think this would be interesting for others; so I didn't pay attention to make it "really readable"*
