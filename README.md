@@ -8,7 +8,7 @@ I have quite little time on my hands now, so it will be delayd (this is just how
 
 
 
-added space below for to easier readability by mobile devices.
+added space below for to easier readability-of the above by mobile devices.
 ```
 
 
