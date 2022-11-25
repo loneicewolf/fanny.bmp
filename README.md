@@ -7,16 +7,124 @@ the report will be re-written and re-publicized as the same with a new version n
 I have quite little time on my hands now, so it will be delayd (this is just how I am).
 
 
+### Points
 
-added space below for to easier readability-of the above by mobile devices.
+Instead of having all the text (literally, **all** text) shown all at once, I decided to make `clickable` points, (if clicking doesn't work, please refer to the `raw` version of the readme or check it on another device)
+
+
+<details>
+<summary>  Basic Info </summary>
+
+```txt
+Name
+            FannyBMP or as the codename, DementiaWheel.
+
+Description
+             FannyBMP or as the codename, DementiaWheel
+             Is a worm that exploited zero day vulns
+             (more specifically, the LNK Exploit CVE-2010-2568).
+             Which allowed it to spread (via usb) even if USB Autorun was turned off.
+             This is the same(although somewhat more obfuscated) exploit that was used in StuxNet.
+
+
+References
+- https://securelist.com/a-fanny-equation-i-am-your-father-stuxnet/68787
+
+
+CVE
+ - 2010-2568
+
 ```
 
+</details>
 
 
 
+<details>
+<summary> POC's (Proof Of Concepts)  </summary>
+
+### YouTube infection run
+![image](https://user-images.githubusercontent.com/68499986/204053660-bc331326-baae-4b79-b2e8-f9509d98c883.png)
+
+- https://www.youtube.com/watch?v=Uto_lcD2f38
 
 
-```
+#### Fanny all files completely provided
+includes:
+
+- 
+    - __d__.lnk - 148300b4c895bef313bee5eea9f40956510bc1e3878917cdd22baeabefb91179
+    - https://www.virustotal.com/gui/file/148300b4c895bef313bee5eea9f40956510bc1e3878917cdd22baeabefb91179/detection
+
+    - __e__.lnk - 276df113d13feaa98602918e09168ee4caadd3b797fdf7fcbe268f5741861bfa
+    - https://www.virustotal.com/gui/file/276df113d13feaa98602918e09168ee4caadd3b797fdf7fcbe268f5741861bfa/detection
+
+    - __f__.lnk - 8e1f99b858010fbf664419404a465ae98b51b40acc94231609367beca8e1652d
+    - https://www.virustotal.com/gui/file/8e1f99b858010fbf664419404a465ae98b51b40acc94231609367beca8e1652d/detection
+
+    - __g__.lnk - 6735dfcf86a0268e880429ebcc0062baa5515eaba69fd45cf4ea42b23f8e5809
+    - https://www.virustotal.com/gui/file/6735dfcf86a0268e880429ebcc0062baa5515eaba69fd45cf4ea42b23f8e5809/detection
+
+    - __h__.lnk - be1fd5a117142d2a80b6798058f66a0abea796986dae29e7902e6b0fe461a605
+    - https://www.virustotal.com/gui/file/be1fd5a117142d2a80b6798058f66a0abea796986dae29e7902e6b0fe461a605/detection
+
+    - __i__.lnk - 86f24cd880f445890c54883a40947fe103cceb92d5d3b17e7a9cf8143cdd04c9
+    - https://www.virustotal.com/gui/file/86f24cd880f445890c54883a40947fe103cceb92d5d3b17e7a9cf8143cdd04c9/detection
+
+    - __j__.lnk - 3696b414d8eaaaea4a9d220226e0e2ed458853eb1546959765aef8ccc0ba37b9
+    - https://www.virustotal.com/gui/file/3696b414d8eaaaea4a9d220226e0e2ed458853eb1546959765aef8ccc0ba37b9/detection
+
+    - comhost.dll - 0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231 
+    - https://www.virustotal.com/gui/file/0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231/detection
+
+    - mscorwin.dll - ef3135e462540adfba00234d75c4b21430f5a9037b61e7dc1014c8711ddc0047
+    - https://www.virustotal.com/gui/file/ef3135e462540adfba00234d75c4b21430f5a9037b61e7dc1014c8711ddc0047/detection
+
+    - shelldoc.dll - 6eb00b34d1daffa49b2f4c90841705b2c994563bde672bf35eb1c46cdb19a1ed
+    - https://www.virustotal.com/gui/file/6eb00b34d1daffa49b2f4c90841705b2c994563bde672bf35eb1c46cdb19a1ed/detection
+
+    - ECELP4.ACM - 787419d07f4bda9bc91072bb8644ed943089ad44f4bb5920bfe452dc111c244d
+    - https://www.virustotal.com/gui/file/787419d07f4bda9bc91072bb8644ed943089ad44f4bb5920bfe452dc111c244d/detection
+
+    - fanny.bmp - 0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231
+    - https://www.virustotal.com/gui/file/0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231/detection
+
+    - ~DE1923.tmp  -  c69a9157638e69fb692d827383c3f27e586e0c98989cffdf8bd4c982ad837a4c
+    - https://www.virustotal.com/gui/file/c69a9157638e69fb692d827383c3f27e586e0c98989cffdf8bd4c982ad837a4c/detection
+
+    - AGENTCPD.DLL - 1e77ae780e3f6389ffd6eae92887e531bf156943e31302c93be08a57ea90e6dd 
+    - https://www.virustotal.com/gui/file/1e77ae780e3f6389ffd6eae92887e531bf156943e31302c93be08a57ea90e6dd/detection
+
+    - dll_installer.dll [will provide soon (this is the inner module of Fanny.BMP)]
+
+
+</details>
+
+
+
+<details>
+<summary> Contact Details </summary>
+
+
+- `urgent contact (Researchers)`
+Mail:    `william-martens@protonmail.ch`
+
+- `general contact`
+Discord: `Ken-Kaneki#3978`
+
+
+</details>
+
+
+
+:radioactive: **Still unsorted (sorting it at the moment)** :radioactive:
+
+
+<details>
+<summary> not-done :warning: </summary>
+
+- https://www.youtube.com/watch?v=Uto_lcD2f38
+
 
 
 ### related:
@@ -192,65 +300,7 @@ meterpreter > run post/windows/gather/forensics/fanny_bmp_check
     [+] WORKSTATION1: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaResources\acm\ECELP4\filter8 found in registry.
     [*] WORKSTATION1: 4 result(s) found in registry.
 
-
-
-
-
-##  Fanny (and the other files, completely provided)
-### includes:
-
-
-- 
-    - __d__.lnk - 148300b4c895bef313bee5eea9f40956510bc1e3878917cdd22baeabefb91179
-    - https://www.virustotal.com/gui/file/148300b4c895bef313bee5eea9f40956510bc1e3878917cdd22baeabefb91179/detection
-
-    - __e__.lnk - 276df113d13feaa98602918e09168ee4caadd3b797fdf7fcbe268f5741861bfa
-    - https://www.virustotal.com/gui/file/276df113d13feaa98602918e09168ee4caadd3b797fdf7fcbe268f5741861bfa/detection
-
-    - __f__.lnk - 8e1f99b858010fbf664419404a465ae98b51b40acc94231609367beca8e1652d
-    - https://www.virustotal.com/gui/file/8e1f99b858010fbf664419404a465ae98b51b40acc94231609367beca8e1652d/detection
-
-    - __g__.lnk - 6735dfcf86a0268e880429ebcc0062baa5515eaba69fd45cf4ea42b23f8e5809
-    - https://www.virustotal.com/gui/file/6735dfcf86a0268e880429ebcc0062baa5515eaba69fd45cf4ea42b23f8e5809/detection
-
-    - __h__.lnk - be1fd5a117142d2a80b6798058f66a0abea796986dae29e7902e6b0fe461a605
-    - https://www.virustotal.com/gui/file/be1fd5a117142d2a80b6798058f66a0abea796986dae29e7902e6b0fe461a605/detection
-
-    - __i__.lnk - 86f24cd880f445890c54883a40947fe103cceb92d5d3b17e7a9cf8143cdd04c9
-    - https://www.virustotal.com/gui/file/86f24cd880f445890c54883a40947fe103cceb92d5d3b17e7a9cf8143cdd04c9/detection
-
-    - __j__.lnk - 3696b414d8eaaaea4a9d220226e0e2ed458853eb1546959765aef8ccc0ba37b9
-    - https://www.virustotal.com/gui/file/3696b414d8eaaaea4a9d220226e0e2ed458853eb1546959765aef8ccc0ba37b9/detection
-
-    - comhost.dll - 0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231 
-    - https://www.virustotal.com/gui/file/0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231/detection
-
-    - mscorwin.dll - ef3135e462540adfba00234d75c4b21430f5a9037b61e7dc1014c8711ddc0047
-    - https://www.virustotal.com/gui/file/ef3135e462540adfba00234d75c4b21430f5a9037b61e7dc1014c8711ddc0047/detection
-
-    - shelldoc.dll - 6eb00b34d1daffa49b2f4c90841705b2c994563bde672bf35eb1c46cdb19a1ed
-    - https://www.virustotal.com/gui/file/6eb00b34d1daffa49b2f4c90841705b2c994563bde672bf35eb1c46cdb19a1ed/detection
-
-    - ECELP4.ACM - 787419d07f4bda9bc91072bb8644ed943089ad44f4bb5920bfe452dc111c244d
-    - https://www.virustotal.com/gui/file/787419d07f4bda9bc91072bb8644ed943089ad44f4bb5920bfe452dc111c244d/detection
-
-    - fanny.bmp - 0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231
-    - https://www.virustotal.com/gui/file/0d9bb9a9e3a6f8836a1ef51862ae1c28f086da3a9006d1c7040fe57ed8c26231/detection
-
-    - ~DE1923.tmp  -  c69a9157638e69fb692d827383c3f27e586e0c98989cffdf8bd4c982ad837a4c
-    - https://www.virustotal.com/gui/file/c69a9157638e69fb692d827383c3f27e586e0c98989cffdf8bd4c982ad837a4c/detection
-
-    - AGENTCPD.DLL - 1e77ae780e3f6389ffd6eae92887e531bf156943e31302c93be08a57ea90e6dd 
-    - https://www.virustotal.com/gui/file/1e77ae780e3f6389ffd6eae92887e531bf156943e31302c93be08a57ea90e6dd/detection
-
-    - dll_installer.dll [will provide soon]
-
-
-### If you spot an mistake, please let me now.
-
 ------------
 
-Urgent Contacts: (Malware Researchers)
-Discord: Ken-Kaneki#3978
-Mail:    william-martens@protonmail.ch
 
+</details>
