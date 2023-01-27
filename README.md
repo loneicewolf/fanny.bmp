@@ -12,7 +12,7 @@ I have quite little time on my hands now, so it will be delayd (this is just how
 Instead of having all the text (literally, **all** text) shown all at once, I decided to make `clickable` points, (if clicking doesn't work, please refer to the `raw` version of the readme or check it on another device)
 
 
-the most important things related to this repo is (most notably) My contribution(this repo) to the Rapid7 project(Metasploit);
+`the most important things related to this repo is (most notably) My contribution(this repo) to the Rapid7 project(Metasploit);`
 - https://blog.rapid7.com/2021/01/29/metasploit-wrap-up-96/
 - https://www.rapid7.com/db/modules/post/windows/gather/forensics/fanny_bmp_check/
 - https://github.com/rapid7/metasploit-framework/tree/master/documentation/modules/post/windows/gather/forensics
