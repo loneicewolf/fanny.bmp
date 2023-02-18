@@ -1,15 +1,33 @@
 # FannyBMP or DementiaWheel
 
 
+# :warning:
+```
+(hopefully final `NOTICE`:)
+
+
+As writing really isn't my front; I decided to make (yet another) Branch.. called "only_malware" which ONLY CONTAINS THE FANNY.BMP MALWARE.
+
+```
+please find it [here **only_malware**](https://github.com/loneicewolf/fanny.bmp/tree/only_malware)
+
+***
+
+
+***
+
+
 Note! the technical report I wrote has a few* painfully-obvious flaws  (like being written in a hurry, so it has some* grammar errors)
-the report will be re-written and re-publicized as the same with a new version number. This new version, will be much better in general. And more Related to the *actual research I did on the malware* rather than the malware in general.
+the report will be re-written and re-publicized as the same with a new version number. 
+This new version, will be much better in general. And more Related to the *actual research I did on the malware* rather than the malware in general.
 
 I have quite little time on my hands now, so it will be delayd (this is just how I am).
 
 
 ### Points
 
-Instead of having all the text (literally, **all** text) shown all at once, I decided to make `clickable` points, (if clicking doesn't work, please refer to the `raw` version of the readme or check it on another device)
+Instead of having all the text (literally, **all** text) shown all at once, I decided to make `clickable` points, 
+(if clicking doesn't work, please refer to the `raw` version of the readme or check it on another device)
 
 
 `the most important things related to this repo is (most notably) My contribution(this repo) to the Rapid7 project(Metasploit);`
