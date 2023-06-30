@@ -129,20 +129,6 @@ includes:
 
 
 
-<details>
-<summary> Contact Details </summary>
-
-
-- `urgent contact (Researchers)`
-Mail:    `william-martens@protonmail.ch`
-
-- `general contact`
-Discord: `Ken-Kaneki#3978`
-
-
-</details>
-
-
 
 :radioactive: **Still unsorted (sorting it at the moment)** :radioactive:
 
