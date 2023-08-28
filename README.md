@@ -1,6 +1,9 @@
 # ONLY MALWARE : `fanny.bmp`
-this branch is a "only malware" repo. containing ONLY the malware itself. Nothing else.
+this branch is a "only malware" repo. containing ONLY the malware itself *and a detection module*. Nothing else.
+(The module was merged, awhile ago now so kali-linux's MetaSploit should have it by default)
 
+If it's missing for anyone though, here is the link:
+- https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/gather/forensics/fanny_bmp_check.rb
 
 ```sh
 
