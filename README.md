@@ -17,6 +17,11 @@ As writing really isn't my front; I decided to make (yet another) Branch.. calle
 - Q: `why did I use the 'runas' dialog to demonstrate the rootkit?`
 - A: `cuz I wanted to show it does work on some text-inputs, as well`
 
+And another screenshot:
+
+![image](https://github.com/loneicewolf/fanny.bmp/assets/68499986/a85bff96-74f2-44cf-8c1e-621b87d6adf7)
+
+
 ***
 
 
