@@ -1,5 +1,6 @@
 # FannyBMP or DementiaWheel
 - Related to `Brutal_Kangaroo` 
+- (In)Directly related to the [nls_933w.dll file](https://github.com/loneicewolf/nls_933w_dll)
 
 # :warning:
 ```
