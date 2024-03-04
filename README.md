@@ -1,17 +1,17 @@
+# ☣️
+```patch
+- MALWARE AHEAD! IF YOU  DO NOT  KNOW WHAT THAT IS, LEAVE 
+```
+# ☣️
+
 # FannyBMP or DementiaWheel
 - Related to `Brutal_Kangaroo` 
 - (In)Directly related to the [nls_933w.dll file](https://github.com/loneicewolf/nls_933w_dll)
 
-# :warning:
 ```
-(hopefully final `NOTICE`:)
-
-
-As writing really isn't my front; I decided to make (yet another) Branch.. called "only_malware" which ONLY CONTAINS THE FANNY.BMP MALWARE.
-
+I made yet another Branch "only_malware" which ONLY CONTAINS THE FANNY.BMP MALWARE
 ```
-# please find it [here **only_malware**](https://github.com/loneicewolf/fanny.bmp/tree/only_malware)
-
+### please find it  [here **only_malware⚠️**](https://github.com/loneicewolf/fanny.bmp/tree/only_malware)
 
 # rootkit quick overview
 ![image](https://github.com/loneicewolf/fanny.bmp/assets/68499986/1839659e-adf7-4b3b-96e7-4f1b382f3a70)
