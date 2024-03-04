@@ -11,8 +11,11 @@ As writing really isn't my front; I decided to make (yet another) Branch.. calle
 ```
 # please find it [here **only_malware**](https://github.com/loneicewolf/fanny.bmp/tree/only_malware)
 
-***
 
+# rootkit quick overview
+![image](https://github.com/loneicewolf/fanny.bmp/assets/68499986/1839659e-adf7-4b3b-96e7-4f1b382f3a70)
+- Q: `why did I use the 'runas' dialog to demonstrate the rootkit?`
+- A: `cuz I wanted to show it does work on some text-inputs, as well`
 
 ***
 
