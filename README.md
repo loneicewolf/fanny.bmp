@@ -174,3 +174,4 @@ Expected output:
 - [Fyyre](https://github.com/Fyyre/) - for your [DrvMon](https://github.com/Fyyre/DrvMon)
 - [Hfiref0x](https://github.com/hfiref0x) - for your [KDU](https://github.com/hfiref0x/KDU)
 - [GPT(O3-PRO)](https://chatgpt.com/?model=o3-pro) For helping me check the formulation of this repo, like MarkDown, etc.
+- [FSU's 2 Students Alejandro Ugas and McDougall for their Research](https://github.com/loneicewolf/fanny.bmp/blob/main/Docs/handson-report-McDougall-Ugas-FINAL.pdf)
