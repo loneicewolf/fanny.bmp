@@ -1,8 +1,3 @@
-THIS REPO WILL BE CLEANED NOW
-so PLEASE, https://github.com/loneicewolf/fanny.bmp/tree/main_legacy check this link, which is a hard-copy for the frozen state of this repo, because now its incomplete(deleting,re arranging, re uploading cleaned files, and so on)
-# 🚧 Under Construction 🚧
-
-
 ### ⚠️ MALWARE AHEAD! — RESEARCH ONLY ⚠️
 
 > **If you don’t know what this is, stop here.**
