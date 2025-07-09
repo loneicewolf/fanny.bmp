@@ -5,11 +5,13 @@
 
 # Deep Dive
 ### video_1
+>
+> just shows the malware test
 
 
 ### video_2
-shows a re-creation (or a custom exploit) based on the malware
-[GIST - MSG BOX](https://gist.github.com/loneicewolf/c588f95287c55454ef6a5c28e8babd30) is here:
+>
+>  shows a re-creation (or a custom exploit) based on the malware [GIST - MSG BOX](https://gist.github.com/loneicewolf/c588f95287c55454ef6a5c28e8babd30) is here:
 
 - If you prefer `Console Application`, I include that code!
 - Same if you prefer a `DLL`, including that!
