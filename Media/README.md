@@ -1,7 +1,4 @@
 # PROOF OF CONCEPTS (aka testing)
-- video_1 : shows the malware
-- video_2 : shows a re-creation (or a custom exploit) based on the malware
-
 
 # Deep Dive
 ### video_1
