@@ -1,4 +1,3 @@
-
 ### ⚠️ MALWARE AHEAD! — RESEARCH ONLY ⚠️
 
 > **If you don’t know what this is, stop here.**
