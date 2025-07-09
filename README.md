@@ -13,8 +13,11 @@
 * Related to `Brutal_Kangaroo`
 * Connected to [`nls_933w.dll`](https://github.com/loneicewolf/nls_933w_dll)
 * Infects via USB using [CVE-2010-2568](https://nvd.nist.gov/vuln/detail/CVE-2010-2568)
-* Shares DNA with Stuxnet, Flame, and Agent.BTZ
+* Shares DNA with Stuxnet and Flame, gauss and duqu respectievely
 
+- [modules LNK 1 RAPID7 fanny_bmp_check - By Me](https://www.rapid7.com/db/modules/post/windows/gather/forensics/fanny_bmp_check/)
+- [vulnerabilities LNK 2 RAPID7 fanny_bmp_check - By Me](https://www.rapid7.com/db/vulnerabilities/post/windows/gather/forensics/fanny_bmp_check/)
+- [metasploit-framework LNK 3 SRC of fanny_bmp_check - By Me](https://github.com/rapid7/metasploit-framework/blob/master//modules/post/windows/gather/forensics/fanny_bmp_check.rb)
 ---
 
 ##  Rootkit Demonstration
@@ -161,4 +164,8 @@ Expected output:
 **Branch of interest:**
 - [🔗 `only_malware` branch (live payloads)](https://github.com/loneicewolf/fanny.bmp/tree/only_malware)
 
-Thanks to GPT for helping me *format this MD*
+# Acknowledgements
+**Thanks to**
+- [Fyyre](https://github.com/Fyyre/) - for your [DrvMon](https://github.com/Fyyre/DrvMon)
+- [Hfiref0x](https://github.com/hfiref0x) - for your [KDU](https://github.com/hfiref0x/KDU)
+- [GPT(O3-PRO)](https://chatgpt.com/?model=o3-pro) For helping me check the formulation of this repo, like MarkDown, etc.
